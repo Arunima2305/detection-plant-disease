@@ -12,7 +12,7 @@ os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 # Monitor memory usage
-st.sidebar.write(f"Memory Usage: {psutil.virtual_memory().percent}%")
+#st.sidebar.write(f"Memory Usage: {psutil.virtual_memory().percent}%")
 
 # Hugging Face API Configuration
 
